@@ -1,0 +1,58 @@
+div.shash{
+	width: 900px;
+	height: 900px;
+	background: yellow;
+	border: 5px solid #FFA500;
+	margin: auto;
+	margin-top: 40px;
+}
+div.shash{
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+ul{
+	margin-top: 40px;
+}
+
+ul li{
+	float: left;
+	width: 100px;
+	height: 100px;
+	list-style: none;
+	border: 2px solid black;
+}
+li img{
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.row li:nth-child(odd){
+	background: black;
+}
+.row2 li:nth-child(odd){
+	background: black;
+}
+.row4 li:nth-child(odd){
+	background: black;
+}
+.row6 li:nth-child(odd){
+	background: black;
+}
+.row1 li:nth-child(even){
+	background: black;
+}
+.row3 li:nth-child(even){
+	background: black;
+}
+.row5 li:nth-child(even){
+	background: black;
+}	
+
+.row7 li:nth-child(even){
+	background: black;
+}
+
+/*не смогла  на div class="table" поставить бордер,
+он сдвигает табл вправо*/
